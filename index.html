@@ -182,6 +182,15 @@ a{color:inherit}
 .legal{background:var(--soft);padding:32px 22px;font-size:13px;color:var(--mut);
   max-width:1000px;margin:0 auto;line-height:1.66}
 .legal b{color:var(--body)}
+
+.sticky{display:none}
+@media(max-width:760px){.sticky{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:90;background:#10151c;padding:10px 12px;gap:10px}
+.sticky a{flex:1;text-align:center;text-decoration:none;font-weight:700;font-size:15px;padding:13px 8px;border-radius:10px;background:var(--brand);color:#fff}
+.sticky a.g{background:#fff;color:#10151c}
+body{padding-bottom:70px}}
+.who2{display:grid;grid-template-columns:1.1fr 1fr;gap:22px;align-items:start}
+@media(max-width:900px){.who2{grid-template-columns:1fr}}
+.vid{background:linear-gradient(150deg,#10151c,#1f2a3a);color:#cfd9e6;border-radius:var(--r);min-height:230px;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;font-size:15px}
 </style>
 </head><body>
 <svg class="sprite" aria-hidden="true"><defs>
@@ -206,12 +215,13 @@ a{color:inherit}
 </defs></svg>
 <div class="demobar">Concept page &middot; prepared by AG1 Consulting for Alex Hickin &middot; not a live website</div>
 
-<div class="livebar"><span><i class="livedot"></i> Taking on people who want to learn roofing &middot; no experience needed &middot; Hertfordshire, Essex and London</span></div>
+<div class="livebar"><span><i class="livedot"></i> Taking on people who want to learn roofing &middot; no experience needed &middot; Hertfordshire and Essex</span></div>
 
 <nav class="nav"><div class="navin">
   <div class="logo">AWH <span style="color:var(--brand)">Roofing</span></div>
   <div class="navl">
     <a href="#work">The Work</a>
+    <a href="#alex">Meet Alex</a>
     <a href="#who">Who We Want</a>
     <a href="#offer">What You Get</a>
     <a href="#honest">Straight Answers</a>
@@ -277,6 +287,30 @@ a{color:inherit}
   </div>
 </section>
 
+<section class="sec alt" id="alex">
+  <div class="wrap">
+    <div class="shead">
+      <div class="kicker">Who you would learn from</div>
+      <h2>A working boss, on the roof with you.</h2>
+      <p class="lede">You are not being handed to a foreman you never see again. Alex runs the firm and is on the job himself at least half the time.</p>
+    </div>
+    <div class="who2">
+      <div class="card">
+        <h3>Alex Hickin</h3>
+        <ul class="ticks">
+          <li>Founded AWH Roofing in 2007</li>
+          <li>Came up through a traditional apprenticeship himself</li>
+          <li>Trained with the Lead Sheet Association, and is a member</li>
+          <li>Worked in New Zealand on corrugated and sheet metal roofing</li>
+          <li>Trained in Belgium in European zinc roofing</li>
+        </ul>
+        <p class="fnote">From AWH Roofing's own website and what Alex told us. [A photograph of Alex on site goes here.]</p>
+      </div>
+      <div class="vid">[30 seconds of Alex, to camera, on site:<br>who he is, what the job is, and who he is looking for.]</div>
+    </div>
+  </div>
+</section>
+
 <section class="sec alt" id="who">
   <div class="wrap">
     <div class="shead">
@@ -314,7 +348,7 @@ a{color:inherit}
     <div class="grid3">
       <div class="card"><div class="cicon"><svg class="ic"><use href="#i-pound"></use></svg></div><h3>Pay</h3><p>[Rate to be supplied by AWH. Say the number. It is the single best filter there is: anyone expecting a fortune reads it and does not apply.]</p></div>
       <div class="card"><div class="cicon"><svg class="ic"><use href="#i-cal"></use></svg></div><h3>The arrangement</h3><p>[Labourer, employed trainee, or a formal apprenticeship. To be settled with AWH's accountant before this goes live.]</p></div>
-      <div class="card"><div class="cicon"><svg class="ic"><use href="#i-pin"></use></svg></div><h3>Where</h3><p>Hertfordshire, Essex and London. [How you get to site, and whether there is a pick-up, to be confirmed.]</p></div>
+      <div class="card"><div class="cicon"><svg class="ic"><use href="#i-pin"></use></svg></div><h3>Where</h3><p>Mostly Hertfordshire and Essex, around Bishop's Stortford. [How you get to site, and whether there is a pick-up, to be confirmed.]</p></div>
       <div class="card"><div class="cicon"><svg class="ic"><use href="#i-award"></use></svg></div><h3>What you learn</h3><p>Leadwork, from a firm that belongs to the Lead Sheet Association, and flat roofing systems like Protan, Res-Tec and RubberBond. [Any courses or cards AWH will put you through, to be confirmed.]</p></div>
       <div class="card"><div class="cicon"><svg class="ic"><use href="#i-tool"></use></svg></div><h3>Kit</h3><p>[What is provided, from boots to tools, to be confirmed.]</p></div>
       <div class="card"><div class="cicon"><svg class="ic"><use href="#i-users"></use></svg></div><h3>Who you work with</h3><p>Experienced roofers who have done this for years, and Alex, who runs the firm and is on site himself.</p></div>
@@ -323,6 +357,24 @@ a{color:inherit}
       <h3>Everything in brackets needs a real answer before this goes live</h3>
       <p>A hiring page with no pay and no clear arrangement gets lots of applicants and no roofers. <b>The bracketed
       fields are the whole value of this.</b></p>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="month">
+  <div class="wrap">
+    <div class="shead"><div class="kicker">Your first month</div><h2>What actually happens after you apply.</h2></div>
+    <div class="steps">
+      <div class="step"><b>1</b><h3>A five-minute call</h3><p>Alex rings you. No interview suit, no CV. Just a chat about what you have done and what you want.</p></div>
+      <div class="step"><b>2</b><h3>A trial day</h3><p>A day on a real job with one of the roofers, so you can see whether it is for you. [Paid or unpaid, to be confirmed.]</p></div>
+      <div class="step"><b>3</b><h3>Weeks one to four</h3><p>Loading out, setting up, clearing down, and watching how the job is done properly.</p></div>
+      <div class="step"><b>4</b><h3>Your first skills</h3><p>You start being trusted with parts of the job yourself, one at a time.</p></div>
+    </div>
+    <div class="shead" style="margin-top:38px"><div class="kicker">Where it can lead</div><h2>Roofing is a trade, not a stopgap.</h2></div>
+    <div class="grid3">
+      <div class="card"><div class="cicon"><svg class="ic"><use href="#i-users"></use></svg></div><h3>Start: a second pair of hands</h3><p>Working alongside an experienced roofer every day.</p></div>
+      <div class="card"><div class="cicon"><svg class="ic"><use href="#i-tool"></use></svg></div><h3>Then: an improver</h3><p>Doing more of the roof yourself as your skills grow. [Pay steps to be confirmed by AWH.]</p></div>
+      <div class="card"><div class="cicon"><svg class="ic"><use href="#i-award"></use></svg></div><h3>In time: a roofer</h3><p>Slating, flat roofing systems and leadwork are skills that are always wanted. [Any qualification route to be confirmed.]</p></div>
     </div>
   </div>
 </section>
@@ -338,6 +390,14 @@ a{color:inherit}
       <details><summary>How do I get to site?</summary><p>[To be confirmed.]</p></details>
       <details><summary>Who would I actually be talking to?</summary><p>Alex, who runs the firm. Not an agency and not a recruiter.</p></details>
     </div>
+  </div>
+</section>
+
+<section class="sec alt" id="where">
+  <div class="wrap">
+    <div class="shead"><div class="kicker">Where the work is</div><h2>Mostly Hertfordshire and Essex, not central London.</h2></div>
+    <div class="areas"><span>Bishop's Stortford</span><span>Harlow</span><span>Sawbridgeworth</span><span>Stansted</span><span>Hertford</span><span>Ware</span><span>Epping</span><span>Hemel Hempstead</span></div>
+    <div class="hint">[How you get to site, and whether there is a pick-up from Bishop's Stortford, to be confirmed. It is the first thing anybody asks.]</div>
   </div>
 </section>
 
@@ -392,4 +452,5 @@ a{color:inherit}
     Product and company names are used for identification only and belong to their respective owners.
   </div>
 </div>
+<div class="sticky"><a href="#apply">Apply in 2 minutes</a><a class="g" href="tel:07889140051">Ring Alex</a></div>
 </body></html>
